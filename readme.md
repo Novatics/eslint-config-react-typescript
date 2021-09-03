@@ -1,10 +1,9 @@
 # Novatics Style Guide - TS
 
-[![npm version](https://badge.fury.io/js/eslint-config-leozera.svg)](https://badge.fury.io/js/eslint-config-leozera)
-![NPM downloads](https://img.shields.io/npm/dm/eslint-config-leozera)
-[![GitHub issues](https://img.shields.io/github/issues/leonardofaria/eslint-config-leozera)](https://github.com/leonardofaria/eslint-config-leozera/issues)
+[![npm version](https://badge.fury.io/js/@novatics-tools/eslint-config-react-typescript.svg)](https://badge.fury.io/js/@novatics-tools/eslint-config-react-typescript)
+![NPM downloads](https://img.shields.io/npm/dm/@novatics-tools/eslint-config-react-typescript)
 ![Code Style Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
-[![MIT License](https://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/leonardofaria/leozera-ui/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/Novatics/eslint-config-react-typescript/blob/master/LICENSE)
 
 A very reasonable approach to Typescript and TSX
 
@@ -12,7 +11,7 @@ A very reasonable approach to Typescript and TSX
 
 Uma abordagem bastante razoável para Typescript
 
-Este guia de estilo é baseado principalmente nos padrões que prevalecem atualmente em JavaScript/Typescript, embora algumas convenções possam variar adotamos e extendemos o guia de estilo do Aibnb e aplicamos algumas regras que achamos mais interessante trazendo para o contexto da plataforma.
+Este guia de estilo é baseado principalmente nos padrões que prevalecem atualmente em JavaScript/Typescript, embora algumas convenções possam variar adotamos e entendemos o guia de estilo do Airbnb e aplicamos algumas regras que achamos mais interessante trazendo para o contexto da plataforma.
 
 ## Instalação
 
@@ -39,7 +38,7 @@ npx install-peerdeps --dev @novatics-tools/eslint-config-react-typescript
 Guia de estilo do Airbnb React / JSX
 Uma abordagem bastante razoável para React e JSX
 
-Este guia de estilo é baseado principalmente nos padrões que prevalecem atualmente em JavaScript, embora algumas convenções possam variar adotamos e estendemos o guia de estilo do Aibnb e aplicamos algumas regras que achamos mais interessante trazendo para o contexto da plataforma.
+Este guia de estilo é baseado principalmente nos padrões que prevalecem atualmente em JavaScript, embora algumas convenções possam variar adotamos e estendemos o guia de estilo do Airbnb e aplicamos algumas regras que achamos mais interessante trazendo para o contexto da plataforma.
 
 ## Eslint
 
