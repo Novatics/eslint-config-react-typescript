@@ -1,17 +1,15 @@
-# Novatics Style Guide - TS
+# Novatics Style Guide - React Typescript
 
-[![npm version](https://badge.fury.io/js/@novatics-tools/eslint-config-react-typescript.svg)](https://badge.fury.io/js/@novatics-tools/eslint-config-react-typescript)
-![NPM downloads](https://img.shields.io/npm/dm/@novatics-tools/eslint-config-react-typescript)
+[![npm version](https://badge.fury.io/js/@novatics-tools%2Feslint-config-react-typescript.svg)](https://badge.fury.io/js/@novatics-tools%2Feslint-config-react-typescript)
 ![Code Style Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
 [![MIT License](https://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/Novatics/eslint-config-react-typescript/blob/master/LICENSE)
 
-A very reasonable approach to Typescript and TSX
+## Melhores práticas
 
-## Guia de estilo Novatics para Typescript
+Guia de estilo do Airbnb React / TSX
+Uma abordagem bastante razoável para React e TSX
 
-Uma abordagem bastante razoável para Typescript
-
-Este guia de estilo é baseado principalmente nos padrões que prevalecem atualmente em JavaScript/Typescript, embora algumas convenções possam variar adotamos e entendemos o guia de estilo do Airbnb e aplicamos algumas regras que achamos mais interessante trazendo para o contexto da plataforma.
+Este guia de estilo é baseado principalmente nos padrões que prevalecem atualmente em Typescript, embora algumas convenções possam variar adotamos e estendemos o guia de estilo do Airbnb e aplicamos algumas regras que achamos mais interessante trazendo para o contexto de projetos e aplicações amplas.
 
 ## Instalação
 
@@ -27,19 +25,6 @@ yarn add @novatics-tools/eslint-config-react-typescript
 
 ```
 
-Caso falte alguma dependência
-
-```sh
-npx install-peerdeps --dev @novatics-tools/eslint-config-react-typescript
-```
-
-## Melhores práticas
-
-Guia de estilo do Airbnb React / JSX
-Uma abordagem bastante razoável para React e JSX
-
-Este guia de estilo é baseado principalmente nos padrões que prevalecem atualmente em JavaScript, embora algumas convenções possam variar adotamos e estendemos o guia de estilo do Airbnb e aplicamos algumas regras que achamos mais interessante trazendo para o contexto da plataforma.
-
 ## Eslint
 
 ```js
@@ -48,7 +33,7 @@ module.exports = {
   parserOptions: {
     project: "./tsconfig.json",
   },
-  extends: ["@novatics-tools/eslint-config-react-typescript"],
+  extends: ["@maas-tools/eslint-config-react-typescript"],
 };
 ```
 
@@ -61,7 +46,7 @@ Porque utilizamos o prettier?
 - Economiza tempo e energia
 
 ```js
-//prettier.config.js
+// prettier.config.js
 module.exports = {
   printWidth: 100,
   tabWidth: 2,
@@ -73,10 +58,10 @@ module.exports = {
 
 ## Extends
 
-Extends do @novatics-tools/eslint-config-react são utilizadas.
+Extends do @maas-tools/eslint-config-react são utilizadas.
 
 ```js
-...@novatics-tools/eslint-config-react
+...@maas-tools/eslint-config-react
 'airbnb-typescript'; // https://www.npmjs.com/package/eslint-config-airbnb
 'plugin:@typescript-eslint/recommended'; // https://www.npmjs.com/package/@typescript-eslint/eslint-plugin
 ```
