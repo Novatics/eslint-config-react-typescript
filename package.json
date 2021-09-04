@@ -1,7 +1,10 @@
 {
-    "name": "@novatics-tools/eslint-config-novatics-typescript",
-    "version": "1.0.0",
+    "name": "@novatics-tools/eslint-config-react-typescript",
+    "version": "1.0.3",
     "main": "index.js",
+    "repository": {
+        "url": "https://github.com/Novatics/eslint-config-react-typescript"
+    },
     "dependencies": {
         "@novatics-tools/eslint-config-react": "^1.0.0",
         "@typescript-eslint/eslint-plugin": "^4.30.0",
