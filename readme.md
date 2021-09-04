@@ -33,7 +33,7 @@ module.exports = {
   parserOptions: {
     project: "./tsconfig.json",
   },
-  extends: ["@maas-tools/eslint-config-react-typescript"],
+  extends: ["@novatics-tools/eslint-config-react-typescript"],
 };
 ```
 
@@ -58,10 +58,10 @@ module.exports = {
 
 ## Extends
 
-Extends do @maas-tools/eslint-config-react são utilizadas.
+Extends do @novatics-tools/eslint-config-react são utilizadas.
 
 ```js
-...@maas-tools/eslint-config-react
+...@novatics-tools/eslint-config-react
 'airbnb-typescript'; // https://www.npmjs.com/package/eslint-config-airbnb
 'plugin:@typescript-eslint/recommended'; // https://www.npmjs.com/package/@typescript-eslint/eslint-plugin
 ```
