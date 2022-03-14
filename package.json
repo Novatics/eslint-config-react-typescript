@@ -1,12 +1,12 @@
 {
     "name": "@novatics-tools/eslint-config-react-typescript",
-    "version": "1.1.0",
+    "version": "1.5.0",
     "main": "index.js",
     "repository": {
         "url": "https://github.com/Novatics/eslint-config-react-typescript"
     },
     "dependencies": {
-        "@novatics-tools/eslint-config-react": "^1.0.3",
+        "@novatics-tools/eslint-config-react": "^1.5.0",
         "@typescript-eslint/eslint-plugin": "^5.15.0",
         "@typescript-eslint/parser": "^5.15.0",
         "eslint-config-airbnb-typescript": "^16.1.2",
