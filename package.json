@@ -1,6 +1,6 @@
 {
     "name": "@novatics-tools/eslint-config-react-typescript",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "main": "index.js",
     "repository": {
         "url": "https://github.com/Novatics/eslint-config-react-typescript"
